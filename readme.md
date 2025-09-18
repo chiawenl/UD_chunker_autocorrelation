@@ -61,15 +61,11 @@ Copies the directories from `ud-treebanks-v2.9`. The treebanks are saved in `ud-
 
 Runs the chunk labeller on all the treebanks in `ud-subset-v2.9` and saves the labelled data in `ud-labelled-v2.9`. It's set to run so that the stats are saved in `chunk-stats.csv` and the lengths of each chunk in each treebank is saved in `lengths`. 
 
-### Autocorrelation 
+# Scripts for autocorrelation and visualization  
 
 XXX
 
-### Visualization 
-
-XXX
-
-### Citation 
+# Citation 
 Chia-Wen Lo, Mark Anderson, Lorenzo Titone, John T. Hale, Lars Meyer. (Under review). Chunks of Local Syntactic Dependencies Form Periodic Sequences, within and across 21 Languages. MPI-CBS.
 
 
