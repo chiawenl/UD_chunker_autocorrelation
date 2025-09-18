@@ -1,3 +1,7 @@
+# Chunks of Local Syntactic Dependencies Form Periodic Sequences, within and across 21 Languages 
+### Chia-Wen Lo, Mark Anderson, Lorenzo Titone, John T. Hale, Lars Meyer
+
+
 # Dependenents
 ### main script libraries
 numpy
