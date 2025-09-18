@@ -19,7 +19,7 @@ python main.py  --ftreebank path-to-treebank
 		--sweep_unitaries (optional, if present will attempt to attach unitary chunks which neighbour non-unitary chunks if syntactically linked)
 ```
 
-There's also some plotting scripts in `src/plotting/` that were used to generate the plots I shared, in case that's of any interest.
+There's also some plotting scripts in `src/plotting/` that were used to generate the plots we shared here, in case that's of any interest.
 
 # Scripts to get treebanks of interest and label all
 
@@ -29,7 +29,7 @@ python get_treebank_subset.py
 
 creates a file `treebank-list.txt` of treebanks with more than 10000 tokens using `ud-tts-ud-corpus.csv`
 
-I usually create a soft link to my ud data:
+We usually create a soft link to our ud data:
 
 ```
 ln -s path/ud-treebanks-v2.9
@@ -48,5 +48,5 @@ Copies the directories from `ud-treebanks-v2.9`. The treebanks are saved in `ud-
 ./label-all.sh \
 ```
 
-Runs the chunk labeller on all the treebanks in `ud-subset-v2.9` and saves the labelled data in `ud-labelled-v2.9`. It's set to run so that the stats are saved in `chunk-stats.csv` and the lengths of each chunk in each treebank is saved in `lengths`. I've saved that for future analysis.
+Runs the chunk labeller on all the treebanks in `ud-subset-v2.9` and saves the labelled data in `ud-labelled-v2.9`. It's set to run so that the stats are saved in `chunk-stats.csv` and the lengths of each chunk in each treebank is saved in `lengths`. 
 
