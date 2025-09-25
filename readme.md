@@ -62,8 +62,21 @@ Copies the directories from `ud-treebanks-v2.9`. The treebanks are saved in `ud-
 Runs the chunk labeller on all the treebanks in `ud-subset-v2.9` and saves the labelled data in `ud-labelled-v2.9`. It's set to run so that the stats are saved in `chunk-stats.csv` and the lengths of each chunk in each treebank is saved in `lengths`. 
 
 # Scripts for autocorrelation and visualization  
+Matlab and R scripts for chunk lags can be found in the folder `autocorrelation`.
+The whole lag dataset can be found here: https://osf.io/rdz7j/
+The folder `chunk_data` includes only 1000 rows of the data.
 
-XXX
+Matlab scripts for computing AC lags:
+`ICI_autocorr_by_chnk_size_matrix.m`
+`ICI_autocorr_by_chnk_size_save_lengths.m`
+
+R scripts for the statistical analysis and the visualization: 
+`assess_durations_information_structure.R`: assess whether duration depends on position within sequence
+`plot_acf_histogram.R`: generate plots for probability density of autocorrelation lags across different sequence lengths and languages
+`test_fits_acf_lag_distribution.R`: quantify and plot within language and subsequence count the Kullback-Leibler Divergence (KLD) of the observed AC lag distribution from a uniform distribution, applying a bootstrapping method
+`variance_by_distance_stats_and_plots`:  compute duration variance in pairs of chunks of increasing inter-chunk distance from 1 to 9 chunks
+
+
 
 # Citation 
 Chia-Wen Lo, Mark Anderson, Lorenzo Titone, John T. Hale, Lars Meyer. (Under review). Chunks of Local Syntactic Dependencies Form Periodic Sequences, within and across 21 Languages. MPI-CBS.
