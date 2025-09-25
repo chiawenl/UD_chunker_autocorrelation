@@ -74,10 +74,10 @@ Matlab scripts for computing AC lags:
 
 
 R scripts for the statistical analysis and the visualization:  
-- `assess_durations_information_structure.R`: assess whether duration depends on position within sequence  
-- `plot_acf_histogram.R`: generate plots for probability density of autocorrelation lags across different sequence lengths and languages  
-- `test_fits_acf_lag_distribution.R`: quantify and plot within language and subsequence count the Kullback-Leibler Divergence (KLD) of the observed AC lag distribution from a uniform distribution, applying a bootstrapping method  
-- `variance_by_distance_stats_and_plots`:  compute duration variance in pairs of chunks of increasing inter-chunk distance from 1 to 9 chunks  
+- `assess_durations_information_structure.R`: assesses whether duration depends on position within sequence  
+- `plot_acf_histogram.R`: generates plots for probability density of autocorrelation lags across different sequence lengths and languages  
+- `test_fits_acf_lag_distribution.R`: quantifies and plots within language and subsequence count the Kullback-Leibler Divergence (KLD) of the observed AC lag distribution from a uniform distribution, applying a bootstrapping method  
+- `variance_by_distance_stats_and_plots.R`:  computes duration variance in pairs of chunks of increasing inter-chunk distance from 1 to 9 chunks  
 
 
 # Citation 
